@@ -64,6 +64,7 @@ function removeFromCart(item) {
     if (c[0] === item){
       cart.splice(i, 1);
       g++
+      return cart
     }
   }
   if (g === 0){
